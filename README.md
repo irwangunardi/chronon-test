@@ -6,9 +6,6 @@ Quickstart docker container
 ### Features
 - All friends total purchase count
 
-### Observation time
-at Risk evaluation
-
 ### Accuracy
 SNAPSHOT
 
