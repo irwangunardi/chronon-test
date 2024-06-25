@@ -1,0 +1,20 @@
+{
+    "default": {
+        "table_properties": {
+            "source": "chronon"
+        },
+        "common_env": {
+            "VERSION": "latest",
+            "SPARK_SUBMIT_PATH": "[TODO]/path/to/spark-submit",
+            "JOB_MODE": "local[*]",
+            "HADOOP_DIR": "[STREAMING-TODO]/path/to/folder/containing",
+            "CHRONON_ONLINE_CLASS": "[ONLINE-TODO]your.online.class",
+            "CHRONON_ONLINE_ARGS": "[ONLINE-TODO]args prefixed with -Z become constructor map for your implementation of ai.chronon.online.Api, -Zkv-host=<YOUR_HOST> -Zkv-port=<YOUR_PORT>",
+            "PARTITION_COLUMN": "ds",
+            "PARTITION_FORMAT": "yyyy-MM-dd"
+        }
+    },
+    "case_referral_agg": {
+        "namespace": "case_referral_agg"
+    }
+}
